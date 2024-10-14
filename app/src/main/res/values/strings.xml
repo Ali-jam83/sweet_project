@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Shiriny</string>
+    <string name="todo">TODO</string>
+    <string name="sabad_kharid">sabad kharid</string>
+    <string name="user">user</string>
+    <string name="cakes">cakes</string>
+    <string name="sefaresh">سفارش های من</string>
+    <string name="dar">در حال</string>
+    <string name="amade">آماده سازی</string>
+    <string name="name">name</string>
+    <string name="number">number</string>
+    <string name="info_user">اطلاعات کاربری</string>
+    <string name="my_notification">اعلانات من</string>
+</resources>

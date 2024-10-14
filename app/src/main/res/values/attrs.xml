@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ToolBarCustom" >
+
+        <attr name="show_back_shop" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="EditTextCustom">
+
+        <attr name="android:text" format="string"/>
+        <attr name="android:hint" format="string" />
+
+    </declare-styleable>
+
+
+</resources>
