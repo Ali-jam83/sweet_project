@@ -32,6 +32,6 @@
     <color name="back_login_start_color">@color/white_color200</color>
     <color name="back_login_end_color">@color/white_main</color>
 
-    <color name="back_graund">#EFEFFD</color>
+    <color name="back_graund">#F0F3FF</color>
 
 </resources>
