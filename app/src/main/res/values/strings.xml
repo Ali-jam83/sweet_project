@@ -11,4 +11,15 @@
     <string name="number">number</string>
     <string name="info_user">اطلاعات کاربری</string>
     <string name="my_notification">اعلانات من</string>
+    <string name="more">بیشتر</string>
+    <string name="test_sweet">شیرینی های پر</string>
+    <string name="cake">کیک ها</string>
+    <string name="my_discount">تخفیف های من</string>
+    <string name="my_favorite">علاقه های من</string>
+    <string name="gens">جنسیت:</string>
+    <string name="man">مرد</string>
+    <string name="woman">زن</string>
+    <string name="email">ایمیل</string>
+    <string name="number_phone">شماره همراه</string>
+    <string name="birth_day">تاریخ تولد</string>
 </resources>

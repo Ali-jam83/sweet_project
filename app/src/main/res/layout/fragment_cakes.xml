@@ -1,160 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.core.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/back_graund">
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-   >
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/logo_pastry"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/todo"
-        android:layout_marginEnd="10dp"
-        android:layout_marginStart="10dp"
-        android:src="@drawable/sefareshii"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/cake_tavalod"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView18"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
-
-    <ImageView
-        android:layout_marginTop="10dp"
-
-        android:id="@+id/imageView17"
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/cake_apple"
-        app:layout_constraintEnd_toStartOf="@+id/imageView18"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
-
-    <ImageView
-        android:layout_marginTop="10dp"
-
-        android:id="@+id/imageView18"
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/cake_gerdo"
-        app:layout_constraintEnd_toStartOf="@+id/imageView13"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView17"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/cake_special"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView21"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/sweet_khooshk"
-        app:layout_constraintEnd_toStartOf="@+id/imageView21"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/sweet_khameiii"
-        app:layout_constraintEnd_toStartOf="@+id/imageView20"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView19"
-        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
-
-    <ImageView
-        android:layout_marginTop="20dp"
-
-        android:id="@+id/imageView25"
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/baghlava"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView23"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
-
-    <ImageView
-        android:layout_marginTop="20dp"
-
-        android:id="@+id/imageView23"
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/sweet_zaabaan"
-        app:layout_constraintEnd_toStartOf="@+id/imageView25"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView22"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
-
-    <ImageView
-        android:layout_marginTop="20dp"
-
-        android:id="@+id/imageView22"
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/cake_child"
-        app:layout_constraintEnd_toStartOf="@+id/imageView23"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
-
-    <ImageView
-        android:layout_width="130dp"
-
-        android:layout_height="150dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/cakes"
-        android:src="@drawable/ajill"
-        app:layout_constraintEnd_toEndOf="@+id/imageView25"
-        app:layout_constraintStart_toStartOf="@+id/imageView25"
-        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/sans_fa_name_bold"
+            android:text="@string/cake"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+            app:layout_constraintEnd_toStartOf="@+id/imageView24"
+            app:layout_constraintTop_toTopOf="@+id/imageView24" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/sefareshii"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txt_title" />
+
+        <ImageView
+            android:id="@+id/img_cake_tavalood"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/cake_tavalod"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/img_cake_gerdo"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+        <ImageView
+            android:id="@+id/img_cake_sib"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/cake_apple"
+            app:layout_constraintEnd_toStartOf="@+id/img_cake_gerdo"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+        <ImageView
+            android:id="@+id/img_cake_gerdo"
+
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/cake_gerdo"
+            app:layout_constraintEnd_toStartOf="@+id/img_cake_tavalood"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/img_cake_sib"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+        <ImageView
+            android:id="@+id/img_cake_makhssos"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/cake_special"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/img_cake_khameii"
+            app:layout_constraintTop_toBottomOf="@+id/img_cake_tavalood" />
+
+        <ImageView
+            android:id="@+id/img_cake_khooshk"
+
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/sweet_khooshk"
+            app:layout_constraintEnd_toStartOf="@+id/img_cake_khameii"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_cake_sib" />
+
+        <ImageView
+            android:id="@+id/img_cake_khameii"
+
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/sweet_khameiii"
+            app:layout_constraintEnd_toStartOf="@+id/img_cake_makhssos"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/img_cake_khooshk"
+            app:layout_constraintTop_toBottomOf="@+id/img_cake_gerdo" />
+
+        <ImageView
+            android:id="@+id/baghlava"
+
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/baghlava"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/img_cake_zaban"
+            app:layout_constraintTop_toBottomOf="@+id/img_cake_makhssos" />
+
+        <ImageView
+            android:id="@+id/img_cake_zaban"
+
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/sweet_zaabaan"
+            app:layout_constraintEnd_toStartOf="@+id/baghlava"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/img_cake_kodak"
+            app:layout_constraintTop_toBottomOf="@+id/img_cake_khameii" />
+
+        <ImageView
+            android:id="@+id/img_cake_kodak"
+
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/cake_child"
+            app:layout_constraintEnd_toStartOf="@+id/img_cake_zaban"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_cake_khooshk" />
+
+        <ImageView
+            android:id="@+id/ajill"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/cakes"
+            android:src="@drawable/ajill"
+            app:layout_constraintEnd_toEndOf="@+id/baghlava"
+            app:layout_constraintStart_toStartOf="@+id/baghlava"
+            app:layout_constraintTop_toBottomOf="@+id/baghlava" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.core.widget.NestedScrollView>

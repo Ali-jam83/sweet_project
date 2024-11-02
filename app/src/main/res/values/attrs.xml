@@ -13,5 +13,11 @@
 
     </declare-styleable>
 
+    <declare-styleable name="RecyclerCustom">
+
+        <attr name="title" format="string"/>
+
+    </declare-styleable>
+
 
 </resources>

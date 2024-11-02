@@ -34,4 +34,6 @@
 
     <color name="back_graund">#F0F3FF</color>
 
+    <color name="back_graund_recycler">#532379</color>
+
 </resources>

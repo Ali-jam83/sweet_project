@@ -5,10 +5,12 @@ import com.example.shiriny.mvp.view.ViewInfoUserFragment
 import com.example.shiriny.mvp.view.ViewShoppingFragment
 
 class PresenterInfoUserFragment(
-    view : ViewInfoUserFragment
+    private val view : ViewInfoUserFragment
 ) : BaseLifeCycleActivity {
 
     override fun onCreate() {
 
+        view.initView()
     }
+
 }

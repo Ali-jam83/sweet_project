@@ -11,6 +11,7 @@ import com.example.shiriny.mvp.ext.ActivityUtils
 import com.example.shiriny.mvp.presenter.PresenterMainActivity
 import com.example.shiriny.mvp.view.ViewMainActivity
 
+
 class MainActivity : AppCompatActivity(), ActivityUtils {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity(), ActivityUtils {
 
         val presenter = PresenterMainActivity(view)
         presenter.onCreate()
+
 
     }
 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="180dp"
+    android:layout_height="70dp"
+
+    app:cardBackgroundColor="@color/black"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/back_graund"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_cake"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@string/cake"
+        android:src="@drawable/img_baghlava"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_cake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sans_fa_name_bold"
+        android:text="@string/cake"
+        android:layout_marginEnd="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/img_cake"
+        app:layout_constraintEnd_toStartOf="@+id/img_cake"
+        app:layout_constraintTop_toTopOf="@+id/img_cake" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
