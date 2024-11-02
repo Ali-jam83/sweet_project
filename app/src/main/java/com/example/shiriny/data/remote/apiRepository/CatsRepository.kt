@@ -12,6 +12,6 @@ import retrofit2.http.*
 interface CatsApiService {
 
     @GET("cats")
-    fun getCats(@Query("pastry_type") type: String): Call<ParentCategoryModel>
+   suspend fun getCats(@Query("pastry_type") type: String): Response<ParentCategoryModel>
 
 }

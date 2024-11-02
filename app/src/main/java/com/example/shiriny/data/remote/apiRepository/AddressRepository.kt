@@ -16,7 +16,7 @@ import retrofit2.http.Path
 interface AddressApiService {
 
     @GET("user/address")
-    fun getAddress(
+   suspend fun getAddress(
         @Header("app-api-key") apiKey: String,
         @Header("app-device-uid") id: String,
         @Header("app-public-key") pubKey: String

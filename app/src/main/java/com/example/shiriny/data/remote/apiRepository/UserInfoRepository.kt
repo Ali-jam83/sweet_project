@@ -3,6 +3,7 @@ package com.example.shiriny.data.remote.apiRepository
 import com.example.shiriny.data.remote.dataModel.DefaultModel
 import com.example.shiriny.data.remote.dataModel.UserInfoData
 import retrofit2.Call
+import retrofit2.Response
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET
@@ -13,15 +14,15 @@ import retrofit2.http.POST
 interface UserApiService {
 
     @GET("auth/heartbeat")
-    fun getUserInfo(
+   suspend fun getUserInfo(
         @Header("app-api-key") apiKey: String,
         @Header("app-device-uid") id: String,
         @Header("app-public-key") pubKey: String
-    ): Call<UserInfoData>
+    ): Response<UserInfoData>
 
     @FormUrlEncoded
     @POST("user/profile")
-    fun setUserInfo(
+   suspend fun setUserInfo(
         @Header("app-api-key") apiKey: String,
         @Header("app-device-uid") id: String,
         @Header("app-public-key") pubKey: String,
@@ -31,7 +32,7 @@ interface UserApiService {
         @Field("month") month: String,
         @Field("year") year: String,
         @Field("sex") sex: Int
-    ): Call<DefaultModel>
+    ):Response<DefaultModel>
 
 }
 
